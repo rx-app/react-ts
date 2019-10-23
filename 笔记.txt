@@ -1,0 +1,9 @@
+33. 阻止事件默认行为
+在 React 中你不能通过返回 false 来阻止默认行为。必须明确调用 preventDefault 。
+
+34. 在 componentWillUnmount 里面去除副作用的函数
+清除 EventListener
+中止数据请求
+清除定时器
+
+
